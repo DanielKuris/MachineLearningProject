@@ -1,0 +1,35 @@
+## I added notes to use later when we prepare for presentation.
+Dump every info/summary we might need later.
+
+FEATURE ANALYSIS PIPELINE SUMMARY
+
+We use multiple methods to understand which features influence fraud detection.
+
+1. MODEL-BASED FEATURE IMPORTANCE
+Random Forest and AdaBoost compute feature importance based on how much each feature improves decision quality in trees. Logistic Regression uses coefficient magnitude to measure linear influence.
+
+These methods show which features the model relies on internally.
+
+2. SHAP (MODEL EXPLANATION METHOD)
+SHAP assigns each feature a contribution value to each prediction by computing its marginal effect across all feature combinations. It provides both:
+- Local explanations (why a specific transaction was classified as fraud or not)
+- Global importance (average influence across dataset)
+
+SHAP is the most reliable method because it explains the model behavior directly.
+
+3. CORRELATION METHODS
+We use three types of statistical relationships:
+
+- Pearson correlation: measures linear relationships between features and fraud labels.
+- Spearman correlation: measures monotonic relationships using ranked values (captures nonlinear trends).
+- Mutual Information: measures general dependency (linear and nonlinear).
+
+Mutual information is the strongest for real-world fraud data because relationships are often nonlinear.
+
+4. WHY MULTIPLE METHODS ARE USED
+Fraud detection data is nonlinear and highly imbalanced, so no single method is sufficient. Combining model-based importance, SHAP, and correlation allows us to understand:
+- what the model uses
+- how it uses it
+- whether statistical relationships agree with model behavior
+
+This improves interpretability and supports feature selection decisions.
