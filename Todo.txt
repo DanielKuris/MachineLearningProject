@@ -1,22 +1,7 @@
 ## This page contains notes of what needs to still be done in the project:
 
-1. *CURRENT* Notes for main loop (what to run on):
-Models:
-Run on each model
-
-Data Balance:
-Run with each balancing methods, make sure to balance correctly
-
-Result Bias:
-Run with and without recall maximizing
-
-Selectors (Feature Reduction):
-Run with each selector
-
-Amount Feature Importance:
-Run with and without Amount column
-
-2. Add solutions to Q4,5 from PDF
-
-
-
+1. Run q1_q3 method and get values
+2. Examine values and decide what to use for Q4,Q5
+3. Fix the run for Q4 and Q5 accordingly
+4. Get results from said runs
+5. Answer all questions
