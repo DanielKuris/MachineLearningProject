@@ -1,7 +1,24 @@
 ## This page contains notes of what needs to still be done in the project:
 
-1. Run q1_q3 method and get values
-2. Examine values and decide what to use for Q4,Q5
-3. Fix the run for Q4 and Q5 accordingly
-4. Get results from said runs
-5. Answer all questions
+1. Observe the output files (features, output). Ignore checkpoint for now.
+
+2. Reduce the iterations; decide on:
+- 2 models to run with (that performed best)
+- 1-2 balancing methods (that performed best)
+- To use , not to use, or run both - recall optimizing (using threshold)
+- To use, not to use, or run both - classw weight
+
+3. Run the experiment with the reduced-iteration configuration that you decided on in 2. , but with selectors 
+(Reminder; selectors select the top-features out of all the features. In other words;
+ they drop the columns that don't benefit our models )
+
+ 4. Decide whether or not to use the selectors for next part, given the results of 3. 
+
+ 5. Run Q4's experiment with the reduced-iteration configuration + maybe with selectors
+
+ 6. Run Q5's experiment with reduced-iteration configuration + maybe with selectors
+
+ 7. Observe the data , make plots, summary and prepare for submitting the assignment
+
+
+## NOTE: Make sure you add Markdowns and document the code, making it ready for presentation
