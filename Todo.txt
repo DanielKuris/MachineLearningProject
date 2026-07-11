@@ -1,24 +1,19 @@
 ## This page contains notes of what needs to still be done in the project:
 
-1. Observe the output files (features, output). Ignore checkpoint for now.
+1. Run Q4's experiment and evaluate the results under src/results_analysis/results_experiment4 (refer to Q4's Run Overview markdown)
 
-2. Reduce the iterations; decide on:
-- 2 models to run with (that performed best)
-- 1-2 balancing methods (that performed best)
-- To use , not to use, or run both - recall optimizing (using threshold)
-- To use, not to use, or run both - classw weight
+2. Write a brief conclusion about the results under main
 
-3. Run the experiment with the reduced-iteration configuration that you decided on in 2. , but with selectors 
-(Reminder; selectors select the top-features out of all the features. In other words;
- they drop the columns that don't benefit our models )
+3. Run any additional experiment that comes to mind if you want under src/extra_experiments
 
- 4. Decide whether or not to use the selectors for next part, given the results of 3. 
+4. Run Q5's experiment and evaluate the results under src/results_analysis/results_experiment5 (refer to Q5's Run Overview markdown)
 
- 5. Run Q4's experiment with the reduced-iteration configuration + maybe with selectors
+5. Write a brief conclusion about the results under main
 
- 6. Run Q5's experiment with reduced-iteration configuration + maybe with selectors
+6. Run any additional experiment that comes to mind if you want under src/extra_experiments
 
- 7. Observe the data , make plots, summary and prepare for submitting the assignment
+7. Write Final Conclusions for the whole project + summary
 
+8. Make the Readme file
 
 ## NOTE: Make sure you add Markdowns and document the code, making it ready for presentation
