@@ -1,0 +1,1350 @@
+train_size,balancing,top_features,shap_stats
+Default,None,"[{'feature': 'V17', 'importance': 0.17032464398288696}, {'feature': 'V14', 'importance': 0.13636330229328408}, {'feature': 'V12', 'importance': 0.13332605926400004}, {'feature': 'V10', 'importance': 0.07407348012797395}, {'feature': 'V16', 'importance': 0.07179221419070769}, {'feature': 'V11', 'importance': 0.04527729605811848}, {'feature': 'V9', 'importance': 0.031126732639842256}, {'feature': 'V4', 'importance': 0.030496322139884714}, {'feature': 'V18', 'importance': 0.028156246497012868}, {'feature': 'V7', 'importance': 0.02462712913531723}]","{'shap_importance': V17    0.002883
+V14    0.000870
+V10    0.000531
+V4     0.000475
+V1     0.000409
+V12    0.000406
+V26    0.000301
+V28    0.000255
+V11    0.000205
+V2     0.000170
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+317       V14       V17     0.000337
+55         V1       V28     0.000222
+251       V10       V17     0.000161
+344       V16       V17     0.000123
+122        V4       V17     0.000109
+365       V17       V26     0.000100
+29         V1        V2     0.000099
+246       V10       V12     0.000097
+427       V25       V28     0.000092
+52         V1       V25     0.000092, 'interaction_global_median':     feature_1 feature_2  interaction
+55         V1       V28     0.000078
+248       V10       V14     0.000056
+283       V12       V14     0.000052
+286       V12       V17     0.000040
+29         V1        V2     0.000038
+246       V10       V12     0.000036
+31         V1        V4     0.000035
+122        V4       V17     0.000032
+317       V14       V17     0.000030
+115        V4       V10     0.000029, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+317       V14       V17     0.000337
+55         V1       V28     0.000222
+251       V10       V17     0.000161
+344       V16       V17     0.000123
+122        V4       V17     0.000109
+365       V17       V26     0.000100
+29         V1        V2     0.000099
+246       V10       V12     0.000097
+427       V25       V28     0.000092
+52         V1       V25     0.000092, 'interaction_normal_median':     feature_1 feature_2  interaction
+55         V1       V28     0.000078
+248       V10       V14     0.000056
+283       V12       V14     0.000052
+286       V12       V17     0.000040
+29         V1        V2     0.000038
+246       V10       V12     0.000036
+31         V1        V4     0.000035
+122        V4       V17     0.000032
+317       V14       V17     0.000030
+115        V4       V10     0.000029}"
+Default,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.21094462508616568}, {'feature': 'V10', 'importance': 0.12039900650763365}, {'feature': 'V4', 'importance': 0.11999006272684412}, {'feature': 'V12', 'importance': 0.10581334428922036}, {'feature': 'V17', 'importance': 0.08772528123757108}, {'feature': 'V3', 'importance': 0.07657721735573855}, {'feature': 'V11', 'importance': 0.04922786396325301}, {'feature': 'V16', 'importance': 0.040935342082511726}, {'feature': 'V2', 'importance': 0.03856099291119959}, {'feature': 'V9', 'importance': 0.026028070490341868}]","{'shap_importance': V14    0.086936
+V4     0.086695
+V12    0.080000
+V10    0.047151
+V3     0.045009
+V11    0.037190
+V17    0.035547
+V16    0.020293
+V1     0.012912
+V2     0.012028
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.021161
+119        V4       V14     0.020946
+117        V4       V12     0.020339
+246       V10       V12     0.013876
+92         V3       V12     0.013635
+248       V10       V14     0.011917
+84         V3        V4     0.011565
+94         V3       V14     0.010898
+116        V4       V11     0.010535
+115        V4       V10     0.010106, 'interaction_global_median':     feature_1 feature_2  interaction
+283       V12       V14     0.016473
+119        V4       V14     0.013902
+117        V4       V12     0.012598
+248       V10       V14     0.011545
+246       V10       V12     0.011510
+92         V3       V12     0.008990
+286       V12       V17     0.007017
+264       V11       V12     0.006755
+115        V4       V10     0.006524
+90         V3       V10     0.005723, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.021161
+119        V4       V14     0.020946
+117        V4       V12     0.020339
+246       V10       V12     0.013876
+92         V3       V12     0.013635
+248       V10       V14     0.011917
+84         V3        V4     0.011565
+94         V3       V14     0.010898
+116        V4       V11     0.010535
+115        V4       V10     0.010106, 'interaction_normal_median':     feature_1 feature_2  interaction
+283       V12       V14     0.016473
+119        V4       V14     0.013902
+117        V4       V12     0.012598
+248       V10       V14     0.011545
+246       V10       V12     0.011510
+92         V3       V12     0.008990
+286       V12       V17     0.007017
+264       V11       V12     0.006755
+115        V4       V10     0.006524
+90         V3       V10     0.005723}"
+1%,None,"[{'feature': 'V14', 'importance': 0.19965985046948287}, {'feature': 'V17', 'importance': 0.14069840866508762}, {'feature': 'V10', 'importance': 0.12427210600516374}, {'feature': 'V16', 'importance': 0.1197342063233253}, {'feature': 'V12', 'importance': 0.08801945588371911}, {'feature': 'V11', 'importance': 0.05720430101784707}, {'feature': 'V7', 'importance': 0.03442538501729535}, {'feature': 'V18', 'importance': 0.022280548842062955}, {'feature': 'V4', 'importance': 0.020825635542020854}, {'feature': 'V19', 'importance': 0.020201172372137186}]","{'shap_importance': V10    0.001099
+V17    0.001006
+V14    0.000405
+V16    0.000342
+V12    0.000194
+V11    0.000145
+V7     0.000122
+V3     0.000107
+V21    0.000096
+V6     0.000088
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+174        V6       V22     0.000043
+207        V8       V12     0.000042
+231        V9       V16     0.000042
+64         V2       V10     0.000038
+255       V10       V21     0.000037
+251       V10       V17     0.000034
+345       V16       V18     0.000034
+107        V3       V27     0.000031
+190        V7       V16     0.000031
+97         V3       V17     0.000031, 'interaction_global_median':     feature_1 feature_2  interaction
+207        V8       V12     0.000027
+188        V7       V14     0.000020
+264       V11       V12     0.000018
+30         V1        V3     0.000017
+13       Time       V14     0.000015
+190        V7       V16     0.000013
+282       V12       V13     0.000013
+64         V2       V10     0.000013
+184        V7       V10     0.000013
+245       V10       V11     0.000013, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+174        V6       V22     0.000043
+207        V8       V12     0.000042
+231        V9       V16     0.000042
+64         V2       V10     0.000038
+255       V10       V21     0.000037
+251       V10       V17     0.000034
+345       V16       V18     0.000034
+107        V3       V27     0.000031
+190        V7       V16     0.000031
+97         V3       V17     0.000031, 'interaction_normal_median':     feature_1 feature_2  interaction
+207        V8       V12     0.000027
+188        V7       V14     0.000020
+264       V11       V12     0.000018
+30         V1        V3     0.000017
+13       Time       V14     0.000015
+190        V7       V16     0.000013
+282       V12       V13     0.000013
+64         V2       V10     0.000013
+184        V7       V10     0.000013
+245       V10       V11     0.000013}"
+2%,None,"[{'feature': 'V17', 'importance': 0.14677579272446023}, {'feature': 'V16', 'importance': 0.14290895407078286}, {'feature': 'V14', 'importance': 0.13370196778713164}, {'feature': 'V10', 'importance': 0.10358386892881662}, {'feature': 'V12', 'importance': 0.09668213812415512}, {'feature': 'V11', 'importance': 0.04964963398597927}, {'feature': 'V3', 'importance': 0.033000615444290574}, {'feature': 'V18', 'importance': 0.02902535279106224}, {'feature': 'V4', 'importance': 0.027458706629567686}, {'feature': 'V2', 'importance': 0.024831722375766217}]","{'shap_importance': V17    0.001220
+V10    0.000563
+V14    0.000452
+V16    0.000245
+V2     0.000210
+V4     0.000174
+V12    0.000174
+V1     0.000145
+V11    0.000134
+V18    0.000085
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+29         V1        V2     0.000162
+61         V2        V7     0.000079
+34         V1        V7     0.000077
+115        V4       V10     0.000062
+255       V10       V21     0.000043
+191        V7       V17     0.000038
+248       V10       V14     0.000036
+77         V2       V23     0.000033
+245       V10       V11     0.000032
+348       V16       V21     0.000027, 'interaction_global_median':     feature_1 feature_2  interaction
+29         V1        V2     0.000098
+34         V1        V7     0.000085
+61         V2        V7     0.000045
+124        V4       V19     0.000017
+248       V10       V14     0.000016
+50         V1       V23     0.000015
+325       V14       V25     0.000013
+92         V3       V12     0.000012
+209        V8       V14     0.000011
+117        V4       V12     0.000011, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+29         V1        V2     0.000162
+61         V2        V7     0.000079
+34         V1        V7     0.000077
+115        V4       V10     0.000062
+255       V10       V21     0.000043
+191        V7       V17     0.000038
+248       V10       V14     0.000036
+77         V2       V23     0.000033
+245       V10       V11     0.000032
+348       V16       V21     0.000027, 'interaction_normal_median':     feature_1 feature_2  interaction
+29         V1        V2     0.000098
+34         V1        V7     0.000085
+61         V2        V7     0.000045
+124        V4       V19     0.000017
+248       V10       V14     0.000016
+50         V1       V23     0.000015
+325       V14       V25     0.000013
+92         V3       V12     0.000012
+209        V8       V14     0.000011
+117        V4       V12     0.000011}"
+2%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.21909985713461091}, {'feature': 'V10', 'importance': 0.1592404754222641}, {'feature': 'V3', 'importance': 0.13465181390959094}, {'feature': 'V11', 'importance': 0.07890149227863395}, {'feature': 'V7', 'importance': 0.06606308356807444}, {'feature': 'V17', 'importance': 0.06588927533325495}, {'feature': 'V16', 'importance': 0.05891042389244094}, {'feature': 'V2', 'importance': 0.0562723865828777}, {'feature': 'V12', 'importance': 0.05458070741660098}, {'feature': 'V4', 'importance': 0.03784841202167952}]","{'shap_importance': V14    0.132932
+V10    0.091562
+V3     0.052583
+V11    0.037414
+V7     0.036252
+V12    0.027464
+V16    0.021675
+V17    0.019387
+V4     0.019219
+V2     0.019039
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+248       V10       V14     0.023101
+90         V3       V10     0.014670
+245       V10       V11     0.012686
+94         V3       V14     0.009384
+188        V7       V14     0.008892
+115        V4       V10     0.008417
+91         V3       V11     0.008185
+266       V11       V14     0.007336
+87         V3        V7     0.007294
+97         V3       V17     0.006649, 'interaction_global_median':     feature_1 feature_2  interaction
+248       V10       V14     0.023910
+90         V3       V10     0.015350
+245       V10       V11     0.013930
+94         V3       V14     0.009539
+115        V4       V10     0.008858
+91         V3       V11     0.008635
+266       V11       V14     0.007618
+188        V7       V14     0.007505
+87         V3        V7     0.007436
+97         V3       V17     0.007030, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+248       V10       V14     0.023101
+90         V3       V10     0.014670
+245       V10       V11     0.012686
+94         V3       V14     0.009384
+188        V7       V14     0.008892
+115        V4       V10     0.008417
+91         V3       V11     0.008185
+266       V11       V14     0.007336
+87         V3        V7     0.007294
+97         V3       V17     0.006649, 'interaction_normal_median':     feature_1 feature_2  interaction
+248       V10       V14     0.023910
+90         V3       V10     0.015350
+245       V10       V11     0.013930
+94         V3       V14     0.009539
+115        V4       V10     0.008858
+91         V3       V11     0.008635
+266       V11       V14     0.007618
+188        V7       V14     0.007505
+87         V3        V7     0.007436
+97         V3       V17     0.007030}"
+5%,None,"[{'feature': 'V17', 'importance': 0.16652462814789643}, {'feature': 'V14', 'importance': 0.143309427138273}, {'feature': 'V10', 'importance': 0.11621590231263196}, {'feature': 'V16', 'importance': 0.10589803573797402}, {'feature': 'V12', 'importance': 0.08339122228527021}, {'feature': 'V11', 'importance': 0.06535740557330641}, {'feature': 'V18', 'importance': 0.031834671132652044}, {'feature': 'V4', 'importance': 0.03030329821842008}, {'feature': 'V9', 'importance': 0.029200659854337126}, {'feature': 'V7', 'importance': 0.027452214719983558}]","{'shap_importance': V17    0.002120
+V10    0.001122
+V14    0.000492
+V16    0.000354
+V11    0.000215
+V12    0.000208
+V4     0.000179
+V24    0.000146
+V3     0.000143
+V18    0.000114
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+258       V10       V24     0.000142
+162        V6       V10     0.000091
+245       V10       V11     0.000063
+190        V7       V16     0.000055
+252       V10       V18     0.000053
+251       V10       V17     0.000048
+96         V3       V16     0.000044
+246       V10       V12     0.000042
+344       V16       V17     0.000041
+71         V2       V17     0.000038, 'interaction_global_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000022
+30         V1        V3     0.000022
+188        V7       V14     0.000018
+209        V8       V14     0.000017
+245       V10       V11     0.000017
+258       V10       V24     0.000014
+119        V4       V14     0.000013
+162        V6       V10     0.000012
+71         V2       V17     0.000012
+283       V12       V14     0.000011, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+258       V10       V24     0.000142
+162        V6       V10     0.000091
+245       V10       V11     0.000063
+190        V7       V16     0.000055
+252       V10       V18     0.000053
+251       V10       V17     0.000048
+96         V3       V16     0.000044
+246       V10       V12     0.000042
+344       V16       V17     0.000041
+71         V2       V17     0.000038, 'interaction_normal_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000022
+30         V1        V3     0.000022
+188        V7       V14     0.000018
+209        V8       V14     0.000017
+245       V10       V11     0.000017
+258       V10       V24     0.000014
+119        V4       V14     0.000013
+162        V6       V10     0.000012
+71         V2       V17     0.000012
+283       V12       V14     0.000011}"
+5%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.2189766527640587}, {'feature': 'V10', 'importance': 0.12870764461583084}, {'feature': 'V17', 'importance': 0.10235380610661214}, {'feature': 'V12', 'importance': 0.0999969137158805}, {'feature': 'V4', 'importance': 0.0924035177628162}, {'feature': 'V11', 'importance': 0.08938929076148987}, {'feature': 'V3', 'importance': 0.08107038512512268}, {'feature': 'V9', 'importance': 0.04323437560718329}, {'feature': 'V2', 'importance': 0.03234246806596084}, {'feature': 'V7', 'importance': 0.02774007981816147}]","{'shap_importance': V14    0.101899
+V4     0.065572
+V11    0.060169
+V12    0.055050
+V3     0.047758
+V10    0.045954
+V17    0.036028
+V9     0.034068
+V15    0.013382
+V7     0.010419
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+119        V4       V14     0.027707
+266       V11       V14     0.022950
+283       V12       V14     0.018957
+94         V3       V14     0.015977
+92         V3       V12     0.014700
+229        V9       V14     0.012925
+116        V4       V11     0.012700
+245       V10       V11     0.011659
+264       V11       V12     0.011534
+115        V4       V10     0.010934, 'interaction_global_median':     feature_1 feature_2  interaction
+119        V4       V14     0.029562
+266       V11       V14     0.025562
+283       V12       V14     0.019249
+94         V3       V14     0.018442
+92         V3       V12     0.015794
+116        V4       V11     0.014237
+245       V10       V11     0.012630
+115        V4       V10     0.011808
+264       V11       V12     0.011319
+84         V3        V4     0.011193, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+119        V4       V14     0.027707
+266       V11       V14     0.022950
+283       V12       V14     0.018957
+94         V3       V14     0.015977
+92         V3       V12     0.014700
+229        V9       V14     0.012925
+116        V4       V11     0.012700
+245       V10       V11     0.011659
+264       V11       V12     0.011534
+115        V4       V10     0.010934, 'interaction_normal_median':     feature_1 feature_2  interaction
+119        V4       V14     0.029562
+266       V11       V14     0.025562
+283       V12       V14     0.019249
+94         V3       V14     0.018442
+92         V3       V12     0.015794
+116        V4       V11     0.014237
+245       V10       V11     0.012630
+115        V4       V10     0.011808
+264       V11       V12     0.011319
+84         V3        V4     0.011193}"
+10%,None,"[{'feature': 'V17', 'importance': 0.1629567686824403}, {'feature': 'V14', 'importance': 0.12542032221774987}, {'feature': 'V10', 'importance': 0.12247818584495493}, {'feature': 'V16', 'importance': 0.10177343354407244}, {'feature': 'V12', 'importance': 0.0897253416896174}, {'feature': 'V11', 'importance': 0.058188831444766075}, {'feature': 'V3', 'importance': 0.02765556910123495}, {'feature': 'V4', 'importance': 0.027520877878370088}, {'feature': 'V9', 'importance': 0.026318967827476857}, {'feature': 'V18', 'importance': 0.024607286155278116}]","{'shap_importance': V17    0.002168
+V10    0.000852
+V14    0.000548
+V12    0.000252
+V16    0.000252
+V11    0.000238
+V2     0.000224
+V4     0.000220
+V1     0.000162
+V7     0.000126
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+248       V10       V14     0.000140
+29         V1        V2     0.000134
+61         V2        V7     0.000133
+34         V1        V7     0.000127
+331       V15       V17     0.000086
+251       V10       V17     0.000074
+246       V10       V12     0.000067
+344       V16       V17     0.000065
+162        V6       V10     0.000062
+245       V10       V11     0.000060, 'interaction_global_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000069
+245       V10       V11     0.000036
+30         V1        V3     0.000019
+344       V16       V17     0.000018
+203        V7    Amount     0.000017
+145        V5       V16     0.000015
+143        V5       V14     0.000015
+317       V14       V17     0.000013
+97         V3       V17     0.000012
+136        V5        V7     0.000012, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+248       V10       V14     0.000140
+29         V1        V2     0.000134
+61         V2        V7     0.000133
+34         V1        V7     0.000127
+331       V15       V17     0.000086
+251       V10       V17     0.000074
+246       V10       V12     0.000067
+344       V16       V17     0.000065
+162        V6       V10     0.000062
+245       V10       V11     0.000060, 'interaction_normal_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000069
+245       V10       V11     0.000036
+30         V1        V3     0.000019
+344       V16       V17     0.000018
+203        V7    Amount     0.000017
+145        V5       V16     0.000015
+143        V5       V14     0.000015
+317       V14       V17     0.000013
+97         V3       V17     0.000012
+136        V5        V7     0.000012}"
+10%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.21925010877361}, {'feature': 'V10', 'importance': 0.15011844758592602}, {'feature': 'V12', 'importance': 0.09766805315634677}, {'feature': 'V4', 'importance': 0.09306967853600585}, {'feature': 'V11', 'importance': 0.08638100626087995}, {'feature': 'V17', 'importance': 0.08065697572192007}, {'feature': 'V3', 'importance': 0.0731214060801521}, {'feature': 'V2', 'importance': 0.04398364185251641}, {'feature': 'V7', 'importance': 0.032463518753132505}, {'feature': 'V9', 'importance': 0.02982030712367971}]","{'shap_importance': V14    0.114280
+V11    0.064540
+V4     0.058712
+V12    0.057484
+V10    0.057243
+V3     0.039004
+V9     0.031005
+V17    0.023983
+V7     0.015692
+V2     0.013284
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+266       V11       V14     0.027807
+119        V4       V14     0.027221
+248       V10       V14     0.022993
+283       V12       V14     0.021320
+94         V3       V14     0.016204
+245       V10       V11     0.014690
+116        V4       V11     0.013556
+229        V9       V14     0.012765
+115        V4       V10     0.011883
+264       V11       V12     0.011633, 'interaction_global_median':     feature_1 feature_2  interaction
+266       V11       V14     0.033499
+119        V4       V14     0.029300
+248       V10       V14     0.023553
+94         V3       V14     0.019098
+283       V12       V14     0.017888
+245       V10       V11     0.016009
+115        V4       V10     0.013344
+116        V4       V11     0.011234
+264       V11       V12     0.011145
+92         V3       V12     0.009146, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+266       V11       V14     0.027807
+119        V4       V14     0.027221
+248       V10       V14     0.022993
+283       V12       V14     0.021320
+94         V3       V14     0.016204
+245       V10       V11     0.014690
+116        V4       V11     0.013556
+229        V9       V14     0.012765
+115        V4       V10     0.011883
+264       V11       V12     0.011633, 'interaction_normal_median':     feature_1 feature_2  interaction
+266       V11       V14     0.033499
+119        V4       V14     0.029300
+248       V10       V14     0.023553
+94         V3       V14     0.019098
+283       V12       V14     0.017888
+245       V10       V11     0.016009
+115        V4       V10     0.013344
+116        V4       V11     0.011234
+264       V11       V12     0.011145
+92         V3       V12     0.009146}"
+20%,None,"[{'feature': 'V17', 'importance': 0.1618639474402697}, {'feature': 'V14', 'importance': 0.14458229416615068}, {'feature': 'V12', 'importance': 0.11366210490105697}, {'feature': 'V16', 'importance': 0.08600400008018562}, {'feature': 'V11', 'importance': 0.07984041378670838}, {'feature': 'V10', 'importance': 0.07012826746605523}, {'feature': 'V18', 'importance': 0.0341182099131606}, {'feature': 'V9', 'importance': 0.027474433070168128}, {'feature': 'V3', 'importance': 0.02695980865389513}, {'feature': 'V7', 'importance': 0.026184580033973552}]","{'shap_importance': V17    0.002437
+V10    0.000784
+V14    0.000586
+V11    0.000290
+V12    0.000265
+V16    0.000220
+V1     0.000195
+V2     0.000177
+V21    0.000169
+V4     0.000158
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000127
+317       V14       V17     0.000126
+162        V6       V10     0.000093
+54         V1       V27     0.000076
+248       V10       V14     0.000075
+97         V3       V17     0.000073
+269       V11       V17     0.000069
+245       V10       V11     0.000065
+64         V2       V10     0.000057
+246       V10       V12     0.000054, 'interaction_global_median':     feature_1 feature_2  interaction
+269       V11       V17     0.000045
+248       V10       V14     0.000041
+321       V14       V21     0.000019
+119        V4       V14     0.000018
+188        V7       V14     0.000018
+92         V3       V12     0.000017
+317       V14       V17     0.000017
+316       V14       V16     0.000017
+264       V11       V12     0.000016
+117        V4       V12     0.000016, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000127
+317       V14       V17     0.000126
+162        V6       V10     0.000093
+54         V1       V27     0.000076
+248       V10       V14     0.000075
+97         V3       V17     0.000073
+269       V11       V17     0.000069
+245       V10       V11     0.000065
+64         V2       V10     0.000057
+246       V10       V12     0.000054, 'interaction_normal_median':     feature_1 feature_2  interaction
+269       V11       V17     0.000045
+248       V10       V14     0.000041
+321       V14       V21     0.000019
+119        V4       V14     0.000018
+188        V7       V14     0.000018
+92         V3       V12     0.000017
+317       V14       V17     0.000017
+316       V14       V16     0.000017
+264       V11       V12     0.000016
+117        V4       V12     0.000016}"
+20%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.2233548689740864}, {'feature': 'V10', 'importance': 0.13793471458882364}, {'feature': 'V12', 'importance': 0.1088688836526827}, {'feature': 'V17', 'importance': 0.08933596902382226}, {'feature': 'V4', 'importance': 0.08288654710144917}, {'feature': 'V3', 'importance': 0.08021568517835413}, {'feature': 'V11', 'importance': 0.06105612406918086}, {'feature': 'V2', 'importance': 0.05534933791108933}, {'feature': 'V7', 'importance': 0.031600760853023754}, {'feature': 'V9', 'importance': 0.030809084202980473}]","{'shap_importance': V14    0.088889
+V12    0.072374
+V4     0.062919
+V3     0.056016
+V10    0.054151
+V11    0.036084
+V17    0.034410
+V9     0.025711
+V2     0.019033
+V7     0.013798
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+119        V4       V14     0.020900
+283       V12       V14     0.020662
+94         V3       V14     0.019569
+248       V10       V14     0.016702
+117        V4       V12     0.014581
+92         V3       V12     0.014419
+115        V4       V10     0.012991
+246       V10       V12     0.012663
+84         V3        V4     0.011263
+264       V11       V12     0.009942, 'interaction_global_median':     feature_1 feature_2  interaction
+94         V3       V14     0.021644
+283       V12       V14     0.017629
+248       V10       V14     0.015061
+119        V4       V14     0.015036
+246       V10       V12     0.010028
+92         V3       V12     0.009219
+90         V3       V10     0.009058
+264       V11       V12     0.008408
+117        V4       V12     0.008262
+97         V3       V17     0.006432, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+119        V4       V14     0.020900
+283       V12       V14     0.020662
+94         V3       V14     0.019569
+248       V10       V14     0.016702
+117        V4       V12     0.014581
+92         V3       V12     0.014419
+115        V4       V10     0.012991
+246       V10       V12     0.012663
+84         V3        V4     0.011263
+264       V11       V12     0.009942, 'interaction_normal_median':     feature_1 feature_2  interaction
+94         V3       V14     0.021644
+283       V12       V14     0.017629
+248       V10       V14     0.015061
+119        V4       V14     0.015036
+246       V10       V12     0.010028
+92         V3       V12     0.009219
+90         V3       V10     0.009058
+264       V11       V12     0.008408
+117        V4       V12     0.008262
+97         V3       V17     0.006432}"
+40%,None,"[{'feature': 'V17', 'importance': 0.15662764880317936}, {'feature': 'V14', 'importance': 0.13525844411567794}, {'feature': 'V12', 'importance': 0.12899905367897024}, {'feature': 'V16', 'importance': 0.10267422524043397}, {'feature': 'V10', 'importance': 0.08143644388186011}, {'feature': 'V11', 'importance': 0.0557026799804025}, {'feature': 'V9', 'importance': 0.03577780264360154}, {'feature': 'V18', 'importance': 0.03292239054325288}, {'feature': 'V4', 'importance': 0.023803997802024232}, {'feature': 'V3', 'importance': 0.020867691858229103}]","{'shap_importance': V17    0.002784
+V14    0.000621
+V10    0.000525
+V1     0.000422
+V12    0.000350
+V2     0.000277
+V11    0.000257
+V16    0.000248
+V4     0.000210
+V7     0.000168
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000173
+29         V1        V2     0.000163
+317       V14       V17     0.000160
+248       V10       V14     0.000137
+55         V1       V28     0.000113
+344       V16       V17     0.000082
+366       V17       V27     0.000075
+191        V7       V17     0.000065
+250       V10       V16     0.000064
+37         V1       V10     0.000062, 'interaction_global_median':     feature_1 feature_2  interaction
+29         V1        V2     0.000107
+248       V10       V14     0.000074
+37         V1       V10     0.000048
+283       V12       V14     0.000027
+136        V5        V7     0.000026
+119        V4       V14     0.000024
+264       V11       V12     0.000023
+245       V10       V11     0.000021
+317       V14       V17     0.000021
+55         V1       V28     0.000020, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000173
+29         V1        V2     0.000163
+317       V14       V17     0.000160
+248       V10       V14     0.000137
+55         V1       V28     0.000113
+344       V16       V17     0.000082
+366       V17       V27     0.000075
+191        V7       V17     0.000065
+250       V10       V16     0.000064
+37         V1       V10     0.000062, 'interaction_normal_median':     feature_1 feature_2  interaction
+29         V1        V2     0.000107
+248       V10       V14     0.000074
+37         V1       V10     0.000048
+283       V12       V14     0.000027
+136        V5        V7     0.000026
+119        V4       V14     0.000024
+264       V11       V12     0.000023
+245       V10       V11     0.000021
+317       V14       V17     0.000021
+55         V1       V28     0.000020}"
+40%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.21002445257253338}, {'feature': 'V10', 'importance': 0.13662509743304652}, {'feature': 'V4', 'importance': 0.1028960730311482}, {'feature': 'V12', 'importance': 0.10159301635241148}, {'feature': 'V17', 'importance': 0.09197408532492977}, {'feature': 'V3', 'importance': 0.08156289690755816}, {'feature': 'V11', 'importance': 0.0521074177059381}, {'feature': 'V2', 'importance': 0.05006581765171264}, {'feature': 'V9', 'importance': 0.031148530264488918}, {'feature': 'V7', 'importance': 0.03015865807355135}]","{'shap_importance': V14    0.090828
+V12    0.075619
+V4     0.075517
+V10    0.052872
+V3     0.051552
+V17    0.035294
+V11    0.032888
+V9     0.019635
+V2     0.014696
+V1     0.011886
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+119        V4       V14     0.024272
+283       V12       V14     0.023973
+117        V4       V12     0.018725
+246       V10       V12     0.016322
+248       V10       V14     0.015567
+94         V3       V14     0.014768
+92         V3       V12     0.014667
+115        V4       V10     0.014119
+84         V3        V4     0.012649
+90         V3       V10     0.009794, 'interaction_global_median':     feature_1 feature_2  interaction
+283       V12       V14     0.020253
+119        V4       V14     0.017884
+246       V10       V12     0.015597
+248       V10       V14     0.014016
+117        V4       V12     0.012509
+94         V3       V14     0.012309
+115        V4       V10     0.008860
+92         V3       V12     0.008820
+90         V3       V10     0.008695
+84         V3        V4     0.007378, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+119        V4       V14     0.024272
+283       V12       V14     0.023973
+117        V4       V12     0.018725
+246       V10       V12     0.016322
+248       V10       V14     0.015567
+94         V3       V14     0.014768
+92         V3       V12     0.014667
+115        V4       V10     0.014119
+84         V3        V4     0.012649
+90         V3       V10     0.009794, 'interaction_normal_median':     feature_1 feature_2  interaction
+283       V12       V14     0.020253
+119        V4       V14     0.017884
+246       V10       V12     0.015597
+248       V10       V14     0.014016
+117        V4       V12     0.012509
+94         V3       V14     0.012309
+115        V4       V10     0.008860
+92         V3       V12     0.008820
+90         V3       V10     0.008695
+84         V3        V4     0.007378}"
+60%,None,"[{'feature': 'V17', 'importance': 0.14813083931832433}, {'feature': 'V12', 'importance': 0.12885472390128153}, {'feature': 'V14', 'importance': 0.12812024077159662}, {'feature': 'V16', 'importance': 0.09575831750368742}, {'feature': 'V10', 'importance': 0.07893165853403333}, {'feature': 'V11', 'importance': 0.05030202278388118}, {'feature': 'V9', 'importance': 0.03685833625739533}, {'feature': 'V18', 'importance': 0.03348482230473157}, {'feature': 'V4', 'importance': 0.028478712320496924}, {'feature': 'V3', 'importance': 0.02290937550869394}]","{'shap_importance': V17    0.002555
+V14    0.000738
+V10    0.000611
+V16    0.000352
+V4     0.000342
+V12    0.000314
+V11    0.000266
+V1     0.000233
+V19    0.000131
+V2     0.000125
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000261
+317       V14       V17     0.000214
+250       V10       V16     0.000149
+248       V10       V14     0.000123
+246       V10       V12     0.000109
+344       V16       V17     0.000097
+29         V1        V2     0.000067
+119        V4       V14     0.000062
+283       V12       V14     0.000057
+115        V4       V10     0.000054, 'interaction_global_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000054
+246       V10       V12     0.000047
+283       V12       V14     0.000044
+119        V4       V14     0.000032
+117        V4       V12     0.000024
+47         V1       V20     0.000023
+317       V14       V17     0.000022
+321       V14       V21     0.000021
+116        V4       V11     0.000021
+73         V2       V19     0.000021, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000261
+317       V14       V17     0.000214
+250       V10       V16     0.000149
+248       V10       V14     0.000123
+246       V10       V12     0.000109
+344       V16       V17     0.000097
+29         V1        V2     0.000067
+119        V4       V14     0.000062
+283       V12       V14     0.000057
+115        V4       V10     0.000054, 'interaction_normal_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000054
+246       V10       V12     0.000047
+283       V12       V14     0.000044
+119        V4       V14     0.000032
+117        V4       V12     0.000024
+47         V1       V20     0.000023
+317       V14       V17     0.000022
+321       V14       V21     0.000021
+116        V4       V11     0.000021
+73         V2       V19     0.000021}"
+60%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.21137132204429013}, {'feature': 'V10', 'importance': 0.13305351739326737}, {'feature': 'V17', 'importance': 0.10360608058369072}, {'feature': 'V12', 'importance': 0.102316680466328}, {'feature': 'V4', 'importance': 0.09812273045430377}, {'feature': 'V3', 'importance': 0.0803701178336244}, {'feature': 'V11', 'importance': 0.05068393891965218}, {'feature': 'V2', 'importance': 0.044670896899124644}, {'feature': 'V16', 'importance': 0.03846859549741355}, {'feature': 'V9', 'importance': 0.029432018044166074}]","{'shap_importance': V14    0.088907
+V12    0.080132
+V4     0.076997
+V10    0.051902
+V3     0.047853
+V17    0.037822
+V11    0.034060
+V16    0.015805
+V2     0.014256
+V9     0.012955
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.023877
+119        V4       V14     0.022914
+117        V4       V12     0.017155
+92         V3       V12     0.014526
+94         V3       V14     0.013906
+246       V10       V12     0.013307
+248       V10       V14     0.012902
+84         V3        V4     0.011671
+115        V4       V10     0.010965
+116        V4       V11     0.010591, 'interaction_global_median':     feature_1 feature_2  interaction
+283       V12       V14     0.019632
+119        V4       V14     0.016841
+248       V10       V14     0.012212
+246       V10       V12     0.010990
+94         V3       V14     0.009118
+286       V12       V17     0.009102
+117        V4       V12     0.008817
+92         V3       V12     0.008796
+116        V4       V11     0.006934
+84         V3        V4     0.006750, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.023877
+119        V4       V14     0.022914
+117        V4       V12     0.017155
+92         V3       V12     0.014526
+94         V3       V14     0.013906
+246       V10       V12     0.013307
+248       V10       V14     0.012902
+84         V3        V4     0.011671
+115        V4       V10     0.010965
+116        V4       V11     0.010591, 'interaction_normal_median':     feature_1 feature_2  interaction
+283       V12       V14     0.019632
+119        V4       V14     0.016841
+248       V10       V14     0.012212
+246       V10       V12     0.010990
+94         V3       V14     0.009118
+286       V12       V17     0.009102
+117        V4       V12     0.008817
+92         V3       V12     0.008796
+116        V4       V11     0.006934
+84         V3        V4     0.006750}"
+80%,None,"[{'feature': 'V17', 'importance': 0.1608695045622206}, {'feature': 'V12', 'importance': 0.1392632162596092}, {'feature': 'V14', 'importance': 0.1307757440123041}, {'feature': 'V16', 'importance': 0.08443855948627775}, {'feature': 'V10', 'importance': 0.07309139505420789}, {'feature': 'V11', 'importance': 0.05283086593074551}, {'feature': 'V9', 'importance': 0.03235513928130376}, {'feature': 'V18', 'importance': 0.031859268147672946}, {'feature': 'V4', 'importance': 0.02745139317456174}, {'feature': 'V7', 'importance': 0.024805421919024268}]","{'shap_importance': V17    0.002632
+V14    0.000754
+V4     0.000438
+V1     0.000398
+V10    0.000394
+V2     0.000343
+V12    0.000310
+V16    0.000283
+V11    0.000252
+V26    0.000237
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+317       V14       V17     0.000234
+251       V10       V17     0.000178
+55         V1       V28     0.000156
+29         V1        V2     0.000147
+131        V4       V26     0.000099
+122        V4       V17     0.000087
+248       V10       V14     0.000085
+246       V10       V12     0.000085
+250       V10       V16     0.000080
+360       V17       V21     0.000072, 'interaction_global_median':     feature_1 feature_2  interaction
+55         V1       V28     0.000065
+29         V1        V2     0.000058
+248       V10       V14     0.000057
+283       V12       V14     0.000048
+47         V1       V20     0.000033
+246       V10       V12     0.000032
+31         V1        V4     0.000030
+117        V4       V12     0.000027
+286       V12       V17     0.000026
+119        V4       V14     0.000024, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+317       V14       V17     0.000234
+251       V10       V17     0.000178
+55         V1       V28     0.000156
+29         V1        V2     0.000147
+131        V4       V26     0.000099
+122        V4       V17     0.000087
+248       V10       V14     0.000085
+246       V10       V12     0.000085
+250       V10       V16     0.000080
+360       V17       V21     0.000072, 'interaction_normal_median':     feature_1 feature_2  interaction
+55         V1       V28     0.000065
+29         V1        V2     0.000058
+248       V10       V14     0.000057
+283       V12       V14     0.000048
+47         V1       V20     0.000033
+246       V10       V12     0.000032
+31         V1        V4     0.000030
+117        V4       V12     0.000027
+286       V12       V17     0.000026
+119        V4       V14     0.000024}"
+80%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.22328557476235483}, {'feature': 'V10', 'importance': 0.12872646298139173}, {'feature': 'V4', 'importance': 0.10664572333820106}, {'feature': 'V12', 'importance': 0.10456986336702057}, {'feature': 'V17', 'importance': 0.08104679238597144}, {'feature': 'V3', 'importance': 0.0754018896157238}, {'feature': 'V11', 'importance': 0.05063306627263712}, {'feature': 'V16', 'importance': 0.04089191755309445}, {'feature': 'V2', 'importance': 0.039524075687380034}, {'feature': 'V9', 'importance': 0.027895567288800733}]","{'shap_importance': V14    0.097619
+V12    0.081856
+V4     0.076037
+V10    0.048679
+V3     0.045707
+V11    0.036953
+V17    0.029534
+V16    0.016314
+V9     0.013398
+V2     0.013193
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.026432
+119        V4       V14     0.022962
+117        V4       V12     0.017244
+92         V3       V12     0.013854
+94         V3       V14     0.013551
+246       V10       V12     0.013349
+248       V10       V14     0.012763
+84         V3        V4     0.011127
+266       V11       V14     0.010790
+115        V4       V10     0.010002, 'interaction_global_median':     feature_1 feature_2  interaction
+283       V12       V14     0.023079
+119        V4       V14     0.016275
+246       V10       V12     0.012086
+248       V10       V14     0.011184
+94         V3       V14     0.009817
+117        V4       V12     0.009405
+92         V3       V12     0.008739
+264       V11       V12     0.007024
+286       V12       V17     0.006169
+84         V3        V4     0.005807, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.026432
+119        V4       V14     0.022962
+117        V4       V12     0.017244
+92         V3       V12     0.013854
+94         V3       V14     0.013551
+246       V10       V12     0.013349
+248       V10       V14     0.012763
+84         V3        V4     0.011127
+266       V11       V14     0.010790
+115        V4       V10     0.010002, 'interaction_normal_median':     feature_1 feature_2  interaction
+283       V12       V14     0.023079
+119        V4       V14     0.016275
+246       V10       V12     0.012086
+248       V10       V14     0.011184
+94         V3       V14     0.009817
+117        V4       V12     0.009405
+92         V3       V12     0.008739
+264       V11       V12     0.007024
+286       V12       V17     0.006169
+84         V3        V4     0.005807}"
+90%,None,"[{'feature': 'V17', 'importance': 0.16932861959192738}, {'feature': 'V14', 'importance': 0.13133261141750788}, {'feature': 'V12', 'importance': 0.12313181555532736}, {'feature': 'V16', 'importance': 0.08650875257821097}, {'feature': 'V10', 'importance': 0.07328775815729709}, {'feature': 'V11', 'importance': 0.05788344034191563}, {'feature': 'V18', 'importance': 0.030074500672680315}, {'feature': 'V9', 'importance': 0.029565177182810362}, {'feature': 'V4', 'importance': 0.029130068614293004}, {'feature': 'V7', 'importance': 0.026610523717201292}]","{'shap_importance': V17    0.002936
+V14    0.000692
+V10    0.000593
+V4     0.000440
+V12    0.000292
+V1     0.000251
+V11    0.000248
+V16    0.000220
+V26    0.000205
+V2     0.000199
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000207
+317       V14       V17     0.000164
+122        V4       V17     0.000115
+29         V1        V2     0.000110
+245       V10       V11     0.000108
+248       V10       V14     0.000099
+131        V4       V26     0.000083
+360       V17       V21     0.000073
+250       V10       V16     0.000073
+246       V10       V12     0.000070, 'interaction_global_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000062
+188        V7       V14     0.000037
+286       V12       V17     0.000034
+119        V4       V14     0.000033
+283       V12       V14     0.000031
+246       V10       V12     0.000029
+122        V4       V17     0.000027
+92         V3       V12     0.000026
+115        V4       V10     0.000025
+321       V14       V21     0.000024, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+251       V10       V17     0.000207
+317       V14       V17     0.000164
+122        V4       V17     0.000115
+29         V1        V2     0.000110
+245       V10       V11     0.000108
+248       V10       V14     0.000099
+131        V4       V26     0.000083
+360       V17       V21     0.000073
+250       V10       V16     0.000073
+246       V10       V12     0.000070, 'interaction_normal_median':     feature_1 feature_2  interaction
+248       V10       V14     0.000062
+188        V7       V14     0.000037
+286       V12       V17     0.000034
+119        V4       V14     0.000033
+283       V12       V14     0.000031
+246       V10       V12     0.000029
+122        V4       V17     0.000027
+92         V3       V12     0.000026
+115        V4       V10     0.000025
+321       V14       V21     0.000024}"
+90%,SMOTE_Tomek,"[{'feature': 'V14', 'importance': 0.22453360372864578}, {'feature': 'V10', 'importance': 0.12402044556805872}, {'feature': 'V4', 'importance': 0.11005827687992109}, {'feature': 'V12', 'importance': 0.10634705094072519}, {'feature': 'V17', 'importance': 0.08306926429722276}, {'feature': 'V3', 'importance': 0.07526177522630861}, {'feature': 'V11', 'importance': 0.049904258856655025}, {'feature': 'V16', 'importance': 0.039981242893380196}, {'feature': 'V2', 'importance': 0.03846419721902756}, {'feature': 'V9', 'importance': 0.0280745694446188}]","{'shap_importance': V14    0.096856
+V4     0.082177
+V12    0.079060
+V10    0.050146
+V3     0.044398
+V11    0.035064
+V17    0.030012
+V16    0.019188
+V1     0.013662
+V9     0.013158
+dtype: float64, 'interaction_global_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.024510
+119        V4       V14     0.023932
+117        V4       V12     0.018516
+92         V3       V12     0.014140
+248       V10       V14     0.013335
+94         V3       V14     0.011836
+246       V10       V12     0.011410
+115        V4       V10     0.010941
+84         V3        V4     0.010932
+266       V11       V14     0.009809, 'interaction_global_median':     feature_1 feature_2  interaction
+283       V12       V14     0.020642
+119        V4       V14     0.017232
+248       V10       V14     0.012322
+117        V4       V12     0.010945
+246       V10       V12     0.009567
+92         V3       V12     0.009091
+115        V4       V10     0.007436
+286       V12       V17     0.006896
+94         V3       V14     0.006506
+84         V3        V4     0.006054, 'interaction_fraud_mean':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_fraud_median':   feature_1 feature_2  interaction
+0      Time        V1          NaN
+1      Time        V2          NaN
+2      Time        V3          NaN
+3      Time        V4          NaN
+4      Time        V5          NaN
+5      Time        V6          NaN
+6      Time        V7          NaN
+7      Time        V8          NaN
+8      Time        V9          NaN
+9      Time       V10          NaN, 'interaction_normal_mean':     feature_1 feature_2  interaction
+283       V12       V14     0.024510
+119        V4       V14     0.023932
+117        V4       V12     0.018516
+92         V3       V12     0.014140
+248       V10       V14     0.013335
+94         V3       V14     0.011836
+246       V10       V12     0.011410
+115        V4       V10     0.010941
+84         V3        V4     0.010932
+266       V11       V14     0.009809, 'interaction_normal_median':     feature_1 feature_2  interaction
+283       V12       V14     0.020642
+119        V4       V14     0.017232
+248       V10       V14     0.012322
+117        V4       V12     0.010945
+246       V10       V12     0.009567
+92         V3       V12     0.009091
+115        V4       V10     0.007436
+286       V12       V17     0.006896
+94         V3       V14     0.006506
+84         V3        V4     0.006054}"
